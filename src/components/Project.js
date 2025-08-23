@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ProjectForm from "./ProjectForm";
 import Projectlist from "./ProjectList" ;
+import ExportList from "./Exportlist";
 
 function Project() {
   const [projects, setProjects] = useState([]);
@@ -14,6 +15,7 @@ function Project() {
       <h1>Project planning</h1>
       < ProjectForm onAddProject={handleAddProject} />
       < Projectlist projects={projects} />
+      < ExportList projects={projects} />
     </div>
   )
 }

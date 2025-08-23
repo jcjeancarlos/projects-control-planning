@@ -105,3 +105,13 @@
      background-color: rgba(38, 147, 183, 0.94);
      
   }
+  
+  .BtnExport {
+    height: 40px;
+    width: 200px;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: larger;
+  }
